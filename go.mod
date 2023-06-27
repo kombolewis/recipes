@@ -2,7 +2,10 @@ module github.com/kombolewis/recipes
 
 go 1.18
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/rs/xid v1.5.0
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
